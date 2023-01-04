@@ -6,11 +6,11 @@ target 'example' do
   use_frameworks!
 
   # Pods for example
-
+    pod 'CLTypingLabel'
   target 'exampleTests' do
     inherit! :search_paths
     # Pods for testing
-      pod 'CLTypingLabel'
+     
   end
 
   target 'exampleUITests' do
